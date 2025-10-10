@@ -105,3 +105,12 @@
 }
 
 /* ADD ADDITIONAL CSS BELOW HERE */
+
+.container__37e49 {
+  border-radius: 12px;
+}
+
+/* OCULTAR COLUMNA "NOW PLAYING" */
+.nowPlayingColumn__133bf {
+  display: none !important;
+}
