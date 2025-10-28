@@ -24,7 +24,7 @@
   --offline-color: #808080; /* offline/invisible status color (hex, rgb or hsl) [default: #808080] */
   /* APP BACKGROUND */
   --background-shading-percent: 70%; /* app background shading amount (0 for complete smoothness) [default: 100%] */
-  --background-image: url(https://raw.githubusercontent.com/ViShenTeX/VichichoThings/refs/heads/main/backgrounds/background-mongola3.gif); /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/sapphire.jpg)]*/
+  --background-image: url(https://i.imgur.com/m9ab6Hk.gif); /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/sapphire.jpg)]*/
   --background-position: center; /* app background position [default: center] */
   --background-size: cover; /* app background size (px) [default: cover] */
   --background-attachment: fixed; /* app background attachment [default: fixed] */
@@ -105,3 +105,26 @@
 }
 
 /* ADD ADDITIONAL CSS BELOW HERE */
+
+.visual-refresh:not(.platform-osx) .leading_c38106::before {
+  content: "i love u pretty girl -v";
+  position: static;
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-default);
+  order: 2;
+  filter: drop-shadow(0 0 5px var(--hsl-main-color));
+}
+
+.visual-refresh:not(.platform-osx) .leading_c38106::after {
+  content: "";
+  position: static;
+  margin-top: -5px;
+  margin-left: 5px;
+  font-family: var(--code-font);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-muted);
+  order: 3;
+}
