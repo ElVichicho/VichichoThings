@@ -13,7 +13,7 @@
 /* SETTINGS */
 :root {
   /* ACCENT COLORS */
-  --main-color: #a51035;
+  --main-color: #ff2626a4;
   /* main accent color (hex, rgb or hsl) [default: #2780e6] */
   --hover-color: #3f3f3f;
   /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
@@ -35,7 +35,7 @@
   /* APP BACKGROUND */
   --background-shading-percent: 100%;
   /* app background shading amount (0 for complete smoothness) [default: 100%] */
-  --background-image: url(https://i.imgur.com/dcrSylu.gif);
+  --background-image: url(https://i.imgur.com/ay22z73.gif);
   /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/sapphire.jpg)]*/
   --background-position: center;
   /* app background position [default: center] */
