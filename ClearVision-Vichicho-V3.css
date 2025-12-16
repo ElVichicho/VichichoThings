@@ -178,11 +178,6 @@
   border-radius: 12px;
 }
 
-/* OCULTAR COLUMNA "NOW PLAYING" */
-.nowPlayingColumn__133bf {
-  display: none !important;
-}
-
 /* Editar titulo */
 
 .visual-refresh:not(.platform-osx) .leading_c38106::before {
